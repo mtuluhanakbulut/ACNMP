@@ -1,4 +1,4 @@
-# ACNMP-CoRL
+# ACNMP
 Adaptive Conditional Neural Movement Primitives: Flexible Skill Formation with Learning from Demonstration and Reinforcement Learning via Representation Sharing
 
 This directory contains code and simulation files for the experiments.
