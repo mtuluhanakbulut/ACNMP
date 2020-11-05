@@ -1,5 +1,5 @@
 # ACNMP
-Adaptive Conditional Neural Movement Primitives: Flexible Skill Formation with Learning from Demonstration and Reinforcement Learning via Representation Sharing
+Adaptive Conditional Neural Movement Primitives: Skill Transfer and Task Extrapolation through Learning from Demonstration and Reinforcement Learning via Representation Sharing
 
 This directory contains code and simulation files for the experiments.
 Questions can be send to [tuluhan.akbulut@boun.edu.tr]
