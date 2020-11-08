@@ -1,1 +1,107 @@
-<h1>Hello World</h1>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> ACNMP </title> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <STYLE type=text/css media=all>
+      #primarycontent {
+          MARGIN-LEFT: auto; ; 
+          WIDTH: expression(document.body.clientWidth > 800? "800px": "auto" ); 
+          MARGIN-RIGHT: auto; 
+          TEXT-ALIGN: left; 
+          max-width: 800px
+          }
+      BODY {
+          TEXT-ALIGN: center
+      }
+      .video {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        padding-top: 25px;
+        height: 0;
+      }
+      .video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      </STYLE>
+      
+  </head>
+  <body>
+
+    <div id="primarycontent">
+        <center>
+        <h2>ACNMP: Skill Transfer and Task Extrapolation through Learning from Demonstration and Reinforcement Learning via Representation Sharing</h2>   
+        <br> 
+            <a href="https://scholar.google.com/citations?user=H8NkqvQAAAAJ&hl=tr">M. Tuluhan Akbulut<sup>1</sup></a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="http://robotics.ozyegin.edu.tr/members/erhan-oztop/">Erhan Oztop<sup>2</sup></a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://myunusseker.github.io/">M. Y. Seker<sup>1</sup></a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://scholar.google.com/citations?user=CgSPV5UAAAAJ&hl=en">Honghu Xue<sup>3</sup></a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://fzaero.github.io/">A. E. Tekden<sup>1</sup></a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.cmpe.boun.edu.tr/~emre/">E. Ugur<sup>1</sup></a><br><br>
+            <a href="http://colors.cmpe.boun.edu.tr/"><b><sup>1</sup>Boun CoLoRs</b></a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="http://ailabs.ozyegin.edu.tr/"><b><sup>1</sup>Ozu AI Laboratory</b></a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://rob.ai-lab.science/"><b><sup>1</sup>NLR LAB</b></a> &nbsp;&nbsp;&nbsp;&nbsp;
+        </center>
+        <br>
+        
+        <img height="200px" style="margin: 0px -120px" id="header_img" src="generalframework.png"/><br>
+        <br>
+        <h2>Abstract</h2>
+        <p>
+            To equip  robots with dexterous skills, an effective approach is to first transfer the desired skill
+            via Learning from Demonstration (LfD), then let the robot improve it by self-exploration via 
+            Reinforcement Learning (RL). In this paper, we propose a novel LfD+RL framework, namely Adaptive
+            Conditional Neural Movement Primitives (ACNMP), that allows efficient policy improvement in novel
+            environments and effective skill transfer between different agents. This is achieved through exploiting
+            the latent representation learned by the underlying Conditional Neural Process (CNP) model, and simultaneous
+            training of the model with supervised learning (SL) for acquiring the demonstrated trajectories and via RL
+            for new trajectory discovery. Through simulation experiments, we show that (i) ACNMP enables the system to
+            extrapolate to situations where pure LfD fails; (ii) Simultaneous training of the system through SL and RL
+            preserves the shape of demonstrations while adapting to novel situations due to the shared representations
+            used by both learners; (iii) ACNMP enables order-of-magnitude sample-efficient RL in extrapolation of
+            reaching tasks compared to the existing approaches; (iv) ACNMPs can be used to implement skill transfer
+            between robots having different morphology, with competitive learning speeds and importantly with less
+            number of assumptions compared to the state-of-the-art approaches. Finally, we show the real-world
+            suitability of ACNMPs through real robot experiments that involve obstacle avoidance, pick and place
+            and pouring actions.
+        </p>
+        
+        <h2>Paper</h2>
+        <p>M. T. Akbulut, E. Oztop, M. Y. Seker, H. Xue, A. E. Tekden and E. Ugur <br/>
+        <a href="acnmp.pdf"><em>ACNMP: Skill Transfer and Task Extrapolation through Learning from Demonstration and Reinforcement Learning via Representation Sharing</em></a></p>
+        
+        
+        <br/>
+        
+        <h2>Supplementary Video</h2>
+
+        Coming Soon
+        <!-- <div class="video">
+            <iframe width="560" height="315" src="{{page.video}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> -->
+        <br/>
+        
+        <h2>Plenary Talk Video</h2>
+        Coming Soon
+        <!-- <div class="video">
+            <iframe width="560" height="315" src="{{page.video2}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> -->
+        <br/>
+        
+        
+        <h2>Code</h2>
+        
+        <p>Code is available at <a href="https://github.com/mtuluhanakbulut/ACNMP"><em>https://github.com/mtuluhanakbulut/ACNMP</em></a></p>
+        
+        <br/>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
