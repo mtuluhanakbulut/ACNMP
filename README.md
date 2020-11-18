@@ -22,5 +22,5 @@ Required Packages:
 
 All 4 experiments can be run from top to bottom using jupyter notebook. You may need to copy .ttt and .ttm files to the folder of Coppelia Robotics for simulation. 
 
-#### The LfD part of the code is taken from https://github.com/rssCNMP/CNMP
+#### The LfD part of the code is taken from https://github.com/myunusseker/CNMP
 
