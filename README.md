@@ -2,7 +2,7 @@
 Adaptive Conditional Neural Movement Primitives: Skill Transfer and Task Extrapolation through Learning from Demonstration and Reinforcement Learning via Representation Sharing
 
 This directory contains code and simulation files for the experiments.
-Questions can be send to [tuluhan.akbulut@boun.edu.tr]
+Questions can be send to [tuluhan_akbulut@brown.edu]
 
 ### Requirements:
 For simulation:
